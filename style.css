@@ -1,0 +1,29 @@
+
+body{
+    background-image: url("img/bg.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+  }
+  @media only screen and (max-width: 375px){
+  .main{
+    width: 80%;
+  }
+  #img{
+    width: 100%;
+  }
+  .btn{
+    position: fixed;
+  }
+  .btn-success{
+    left:10px
+  }
+  .btn-danger{
+    right: 10px;
+  }
+  }
